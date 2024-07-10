@@ -30,7 +30,6 @@ def delete(id: str):
 
 @router.post("/send_invitation")
 def send_invite():
-    # recipient_emails = ["pooja@aviato.consulting", "shraddha@aviato.consulting"]
-    recipient_emails = ["sergiokunaguero0009@gmail.com", "pedrigonzalez0008@gmail.com"]
+    recipient_emails = ["pooja@aviato.consulting", "shraddha@aviato.consulting"]
     user.send_invitation(recipient_emails)
     return {"detail": "Invitation sent"}

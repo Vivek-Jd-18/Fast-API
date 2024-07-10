@@ -67,7 +67,7 @@ def delete(id: str):
 
 def send_invitation(recipients):
     subject = "API Documentation Invitation"
-    public_url = "http://54.167.19.161:8000"
+    public_url = "https://ad51-2409-40c1-3f-937d-7df5-c62-123b-ab86.ngrok-free.app"
     body = f"""
     <!DOCTYPE html>
 <html lang="en">
