@@ -12,6 +12,9 @@ class UserBase(BaseModel):
     hashtag: Optional[str] = None
     dob: Optional[date] = None
 
+    class Config:
+        extra = "allow"
+
 class UserShow(UserBase):
     id: str
     class Config:
